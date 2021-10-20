@@ -5,16 +5,10 @@ import java.util.ArrayList;
 
 public class MainWindow extends FrameWindow {
     private static final String MAIN_TITLE = "Main Window";
-    private static final String TEXTFIELD_WINDOW_TITLE = "TextField Window";
-    private static final String LABEL_WINDOW_TITLE = "Label Window";
-    private static final String TEXTFIELD_OBSERVER_BUTTON_TITLE = "Update TextField Window Observer";
-    private static final String LABEL_OBSERVER_BUTTON_TITLE = "Update Label Window Observer";
-    private static final String STOP_THREAD_BUTTON_TITLE = "Stop Generating Prime Number";
     private static final int X = 250;
     private static final int Y = 100;
     private static final int WIDTH = 600;
     private static final int HEIGHT = 100;
-    private static final int GAP = 50;
 
     private ArrayList<String> displayList;
     private JFrame frame;
